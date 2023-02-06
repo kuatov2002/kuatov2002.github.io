@@ -113,7 +113,7 @@
             }
         }
         function nalevo() {
-            document.getElementById("levo").style.zIndex = 0;
+	        document.getElementById("levo").style.zIndex = 0;
             setTimeout(() => {
                 document.getElementById("levo").style.zIndex = 2;
             }, 300);
@@ -135,7 +135,7 @@
                     $("#characterpage1").animate({ left: "16.25vw" }, 300);//-264
                     $("#zhon").animate({ opacity: 1 }, 150);
                     $("#zhon1").animate({ opacity: 0.7 }, 150); $("#zhon1").css('filter', 'invert(0)');
-                    if (now == "zhon") { $("#zhon2").animate({ opacity: 1 }, 150); $("#zhon1").css('filter', 'invert(1)'); } z
+                    if (now == "zhon") { $("#zhon2").animate({ opacity: 1 }, 150); $("#zhon1").css('filter', 'invert(1)'); }
                     $("#kli,#kli1,#kli2").animate({ opacity: 0 }, 150);
                     setTimeout(function () {
                         $("#tartaglia").animate({ opacity: 1 }, 150);
