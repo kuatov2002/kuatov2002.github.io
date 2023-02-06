@@ -11,8 +11,8 @@
         function load() {
             //$("#characterimg").css('opacity','0');
             //    $("#characterpage,#characterpage1").animate({opacity:0.5},500);
-            $("#characterimg,#amber,#barbara,#tartaglia,#zhon,#diluc,.butt,#fishl").animate({ opacity: 1 }, 300);
-            $("#amber1,#barbara1,#tartaglia1,#zhon1,#diluc1,#fishl1").animate({ opacity: 0.7 }, 300);
+            $("#characterimg,#amber,#barbara,#tartaglia,#zhon,#diluc,.butt,#fishl").animate({ opacity: 1 }, 100);
+            $("#amber1,#barbara1,#tartaglia1,#zhon1,#diluc1,#fishl1").animate({ opacity: 0.7 }, 100);
         }
         var audioElement = document.createElement("audio");
         audioElement.volume = 0;
@@ -359,7 +359,7 @@
 </head>
 
 <body onload="load()" onclick="musicbody(this)">
-    <div class="buttons"><img id="music" src="musicoff.png" onclick="music(this)"></div>
+    <div class="buttons"></div>
     <a href="main.html">
         <div class="main">
             <p>Главная</p>
@@ -402,7 +402,7 @@
                     <div class="fon1" id="amber3"></div>
                     <p class="aniname">Эмбер</p>
                 </div><img src="elements/fire.png" class="element" id="amber2"><img src="icons/amber.png" id="amber"
-                    class="charactericon" onmouseover="op1(this) " onmouseout="op0(this)" onclick="img(this)">
+                    class="charactericon" onmouseover="op1(this) " onmouseout="op0(this)" onclick="img(this)" >
             </div>
             <div style=" width: 6.2vw; height: 7.4vw; position: absolute;top: 0;left:6.875vw;" id="qwer">
                 <div class="fon" id="barbara1">
